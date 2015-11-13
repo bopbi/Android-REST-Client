@@ -1,7 +1,7 @@
 Android-REST-Client
 ===================
 
-an Android REST Client utility, basicly this is a utility to make accessing web service a lot easier
+an Android REST Client utility, basically this is a utility to make accessing web service a lot easier
 
 code originally from: http://lukencode.com/2010/04/27/calling-web-services-in-android-using-httpclient/
 
@@ -12,8 +12,8 @@ Feature:
 TODO:
 - Add https support
 
-
 HOW to USE :
+~~~
  RestClient client = new RestClient(LOGIN_URL);
  client.AddParam("accountType", "GOOGLE");
  client.AddParam("source", "tboda-widgalytics-0.1");
@@ -29,3 +29,4 @@ HOW to USE :
  }
   
  String response = client.getResponse();
+~~~
